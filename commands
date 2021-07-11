@@ -1,0 +1,8 @@
+# build docker via composer --> sudo docker-compose up --build
+
+# make project via docker compose --> sudo docker-compose run app sh -c "django-admin startproject core ."
+
+# creating app via docker compose -->  sudo docker-compose run app sh -c "django-admin startaoo core_app"
+
+# for daemon problem change permission of --> /var/run/dcoker.sock file
+
