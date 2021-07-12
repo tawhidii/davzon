@@ -39,7 +39,6 @@ INSTALLED_APPS = [
 
     # A django app contains management command
     'core_app.apps.CoreAppConfig',
-
 ]
 
 MIDDLEWARE = [
