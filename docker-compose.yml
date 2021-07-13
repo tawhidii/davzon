@@ -23,6 +23,10 @@ services:
       - ./.env
     volumes:
       - pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=db
+      - POSTGRES_USER=davzone_user
+      - POSTGRES_PASSWORD=thefatafatipassword
   redis:
     image: redis:6-alpine
   celery:
